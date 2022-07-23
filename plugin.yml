@@ -1,0 +1,13 @@
+main: me.valenwe.rustcraft.Main
+name: Rustcraft
+version: 3.27
+author: Valenwe
+api-version: 1.18
+depend: [WorldEdit]
+
+commands:
+  clan:
+  accept:
+  decline:
+  rustcraft:
+  

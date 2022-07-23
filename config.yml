@@ -1,0 +1,111 @@
+#all values in the chest in the clan territory
+values:
+  diamond: 5
+  netherite: 20
+  iron: 1
+  emerald: 5
+  gold: 2
+  equipment: 2
+  enchanted_equipment: 4
+  diamond_equipment: 7
+  enchanted_diamond_equipment: 10
+  netherite_equipment: 11
+  enchanted_netherite_equipment: 15
+  golden_apple: 3
+  special: 20
+  potion: 5
+  enchanted_book: 5
+
+#all values concerning the resources in the Clan chest
+chest_values:
+  cake: 50
+  netherite: 40
+  emerald: 20
+  diamond: 5
+  iron: 1
+
+#all loot chances in the rustcraft chest
+loot_chances:
+
+  rustcraft_chest:
+    maximum_amount_item: 5
+    leather: 0.3
+    gunpowder: 0.2
+    saddle: 0.1
+    iron_sword: 0.2
+    wheat: 0.4
+    music_disc: 0.01
+    golden_apple: 0.05
+    chainmail_stuff: 0.1
+    iron_pickaxe: 0.2
+    lapis_lazuli: 0.2
+    egg: 0.3
+    coal: 0.3
+    melon_seed: 0.2
+    lead: 0.1
+    gold_ingot: 0.2
+    name_tag: 0.1
+    
+  rustcraft_advanced_chest:
+    maximum_amount_item: 2
+    enchanted_golden_apple: 0.03
+    diamond: 0.3
+    diamond_sword: 0.25
+    diamond_pickaxe: 0.25
+    diamond_stuff: 0.15
+    enchanted_book: 0.2
+    cake: 0.3
+    diamond_horse_armor: 0.2
+    golden_horse_armor: 0.35
+    emerald: 0.2
+    potion: 0.2
+    
+#chances of generating a structure
+structure_generation_chances:
+  ennemy_base: 0.015
+  furnace_base: 0.003
+  half_pipe: 0.008
+  hangar: 0.002
+  shack: 0.01
+  little_tower: 0.02
+
+#radius of the clan territory in fonction of his level
+radius_per_level:
+  lvl_1: 30
+  lvl_2: 35
+  lvl_3: 40
+  lvl_4: 45
+  lvl_5: 50
+
+#maximum height needed for the egg protection
+dragon_egg_height: 78
+
+#time between each resource wipe (seconds)
+time_each_check_clan_value: 1200
+
+#number min/max needed to declare a war to another clan
+excess_number_player: 2
+
+#time of a war duration (seconds)
+war_time: 1200
+
+#max number of clan members in a clan
+clan_members_max: 25
+
+#max number of clans
+clan_max_number: 50
+
+#name of the world ('world' is the default name)
+world_name: world
+
+#activation of the changes in the tchat
+tchat: true
+
+#activation of the mob spawning inside a clan territory
+allow_mob_spawn: true
+
+#allow players from ennemy clan to place/destroy any block in your territory
+allow_ennemy_building: false
+
+# language of the plugin
+language: "english"
